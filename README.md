@@ -132,6 +132,7 @@ Mouse.click(MOUSE_LEFT | MOUSE_RIGHT); (Presionamos y soltamos el botón derecho
 
 
 <h3>13. DESARROLLO EN BASE A PROTOTIPOS</h3>
+
 *<h4>13.1 Prototipo 1</h4>*
 <p>
 El prototipo uno consistió en la implementación de un software de funcionalidad de 5 botones, arriba, abajo, izquierda, derecha, clic izquierdo y de parte del hardware la utilización parcial del material que fueron 5 botones, cable conductor, Protoboard, resistencias, papel cascaron, como podemos ver en la Figura 5 y 6.
