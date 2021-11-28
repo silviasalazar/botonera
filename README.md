@@ -46,6 +46,7 @@ Entre los resultados que se esperan obtener  es que al ser un proyecto altruista
 <p>
 El desarrollo del proyecto se dividió en dos partes, la parte del hardware que sería nuestro gabinete, circuito, armado, y la parte del software que trabajamos en el IDE de Arduino, consistió en 3  prototipos y el prototipo 4 que es en el que se está trabajando actualmente, utilizando la metodología de prototipado escalonadamente añadiendo funcionalidades en cada uno de ellos, teniendo más semejanza a un producto final con cada una de las iteraciones.
 </p>
+![](https://github.com/silviasalazar/botonera/blob/main/images/f1.PNG)
 
 *<h4>6.1 Uso de Chip ATMEGA 32U4 en arduino “micro pro” o “Leonardo”</h4>*
 <p>
