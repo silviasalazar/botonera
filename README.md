@@ -46,7 +46,9 @@ Entre los resultados que se esperan obtener  es que al ser un proyecto altruista
 <p>
 El desarrollo del proyecto se dividió en dos partes, la parte del hardware que sería nuestro gabinete, circuito, armado, y la parte del software que trabajamos en el IDE de Arduino, consistió en 3  prototipos y el prototipo 4 que es en el que se está trabajando actualmente, utilizando la metodología de prototipado escalonadamente añadiendo funcionalidades en cada uno de ellos, teniendo más semejanza a un producto final con cada una de las iteraciones.
 </p>
+
 ![](https://github.com/silviasalazar/botonera/blob/main/images/f1.PNG)
+
 
 *<h4>6.1 Uso de Chip ATMEGA 32U4 en arduino “micro pro” o “Leonardo”</h4>*
 <p>
@@ -85,14 +87,20 @@ Nuestro mercado potencial se centra principalmente en personas de bajos recursos
 El hardware del dispositivo se puede hacer de varias formas ya sea madera, plástico, en base a una impresora 3d en este caso ya se contaba con un gabinete que fue creado en base una impresión 3d, con la medida de 23x23 centímetros de base con inclinación de punto mínimo 2cm a 8cm en su contraparte tal como se puede apreciar en la Figura 2. 
 </p>
 
+![](https://github.com/silviasalazar/botonera/blob/main/images/f2.PNG)
+
 <p>
 Teniendo el gabinete ocupas una tapadera con las perforaciones de los botones, esto dependerá de los botones que se utilicen en nuestro caso utilizamos 8 botones (como  se ve en la Figura 3) que en un principio trabajamos en papel cascaron para hacer las pruebas del dispositivo.
 </p>
+
+![](https://github.com/silviasalazar/botonera/blob/main/images/f3.PNG)
 
 <h3>12. SOFTWARE</h3>
 <p>
 Estudiando diagramas guiados de la página de arduino se adaptaron para Arduino Leonardo y Arduino Micro Pro ya que se estuvo trabajando con ambos, en este caso se muestra el diagrama de lo que sería la botonera alámbrica
 </p>
+
+![](https://github.com/silviasalazar/botonera/blob/main/images/f4.PNG)
 
 <p>El software del dispositivo se hizo utilizando el IDE de Arduino en el cual agregamos las librerías:</p>
 
@@ -129,15 +137,23 @@ Mouse.click(MOUSE_LEFT | MOUSE_RIGHT); (Presionamos y soltamos el botón derecho
 El prototipo uno consistió en la implementación de un software de funcionalidad de 5 botones, arriba, abajo, izquierda, derecha, clic izquierdo y de parte del hardware la utilización parcial del material que fueron 5 botones, cable conductor, Protoboard, resistencias, papel cascaron, como podemos ver en la Figura 5 y 6.
 </p>
 
+![](https://github.com/silviasalazar/botonera/blob/main/images/f5.PNG)
+
+![](https://github.com/silviasalazar/botonera/blob/main/images/f6.PNG)
+
 *<h4>13.2 Prototipo 2</h4>*
 <p>
 El prototipo 2 se añadió en hardware principalmente 3 botones más, se cambió de usar Protoboard a placa perforada para soldar todos los componentes y en software la funcionalidad de los otros 3 botones, que fueron scroll arriba y abajo, además de clic derecho, como podemos observar en la Figura 7.
 </p>
 
+![](https://github.com/silviasalazar/botonera/blob/main/images/f7.PNG)
+
 *<h4>13.3 Prototipo 3</h4>*
 <p>
 El prototipo 3, implementa la funcionalidad de 8 botones, la funcionalidad parcial de los módulos bluetooth de ahí que lo llamemos prototipo 3, en términos de hardware hace del gabinete, y de software seguiremos con la completa optimización de los módulos bluetooth.
 </p>
+
+![](https://github.com/silviasalazar/botonera/blob/main/images/f8.PNG)
 
 <h3>14. CONCLUSIONES Y TRABAJOS A FUTURO</h3>
 <p>
@@ -149,11 +165,14 @@ El  crear un dispositivo para que sea utilizado contrae consigo más dilemas de 
 Entendemos que  en la actualidad la comunicación inalámbrica otorga practicidad, por eso trabajamos en en implementarla, el módulo bluetooth que estamos trabajando es  el hc-05, de 6 pines, 3,3v de parada en lectura n\,donde este requiere que el pin KEY, esté en HIGH cuando encendemos el módulo. En principio no es necesario usar un divisor de tensión y  los pines son tolerantes a 5V (Figura 9).
 </p>
 
+![](https://github.com/silviasalazar/botonera/blob/main/images/f9.PNG)
 
 *<h4>14.1.1 Configuración de módulo HC-05</h4>*
 <p>
 La configuración del módulo hc-05 (Figura 10) fue teniendo dos perspectivas de él, en un principio se tenía en cuenta utilizar solo 1 posterior la de 2 siendo uno esclavo y otro maestro con la utilización de dos Arduino Micro Pro, configurando primero por comandos AT para añadir roles, nombre, frecuencia de baudios a la que trabajarían, igualmente la conexión de ambos aplicando sus roles esclavo-maestro.
 </p>
+
+![](https://github.com/silviasalazar/botonera/blob/main/images/f10.PNG)
 
 *<h4>14.1.2 Comandos básicos AT(Attention) para configuración de módulo HC-05</h4>*
 
