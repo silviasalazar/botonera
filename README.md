@@ -209,6 +209,21 @@ Figura 10
 - AT+NAME?     ESTÁ LEYENDO EL NOMBRE
 
 
+<h3>¿QUÉ NECESITAMOS?</h3>
+
+- IDE ARDUINO
+
+    [Descargar IDE Arduino](https://www.arduino.cc/en/software)
+
+- Arduino con Chip AT MEGA 32U4 (Arduino micro pro o Leonardo)
+- Resistencias
+- Protoboard
+- Botones
+
+
+
+
+
 
 
 
